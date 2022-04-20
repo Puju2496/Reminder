@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="labelPrimary">@color/white</color>
+    <color name="appBackground">@color/grey9</color>
+    <color name="listBackground">@color/black</color>
+</resources>

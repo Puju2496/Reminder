@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Splash.Text" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Reminder.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:titleTextAppearance">@style/Reminder.Title</item>
+    </style>
+
+    <style name="AppTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Reminder.Texts" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/labelPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="Reminder.Time" parent="Reminder.Texts">
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+    </style>
+    
+    <style name="Reminder.Header" parent="Reminder.Texts">
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="Reminder.Buttons" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/arthouse_owned_medium_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
